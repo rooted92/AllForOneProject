@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Madlib | All For One</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body class="bg-img">
+    <nav class="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Madlib</a>
+            <a class="home-link" href="../index.html">Home</a>
+        </div>
+        <p class="my-name">Pedro Castaneda</p>
+    </nav>
+    <div class="container-fluid d-flex justify-content-center pt-3">
+        <div class="madlib-api-content">
+            <div class="row d-flex justify-content-center">
+                <h1 class="d-flex justify-content-center pt-3">Enter 12 Words</h1>
+            </div>
+            <div class="row d-flex justify-content-center mt-4">
+                <div class="row pb-2 form-number-input">
+                    <input id="adjectiveOne" type="text" class="form number-input" placeholder="Enter adjective...">
+                </div>
+                <div class="row pb-2 form-number-input">
+                    <input id="adjectiveTwo" type="text" class="form number-input" placeholder="Enter adjective...">
+                </div>
+                <div class="row pb-2 form-number-input">
+                    <input id="nounOne" type="text" class="form number-input" placeholder="Enter name of creature...">
+                </div>
+                <div class="row pb-2 form-number-input">
+                    <input id="nounTwo" type="text" class="form number-input" placeholder="Enter name of thing...">
+                </div>
+                <div class="row pb-2 form-number-input">
+                    <input id="nounThree" type="text" class="form number-input" placeholder="Enter name of thing...">
+                </div>
+                <div class="row pb-2 form-number-input">
+                    <input id="nounFour" type="text" class="form number-input" placeholder="Enter name of thing...">
+                </div>
+                <div class="row pb-2 form-number-input">
+                    <input id="nounFive" type="text" class="form number-input" placeholder="Enter name of thing...">
+                </div>
+                <div class="row pb-2 form-number-input">
+                    <input id="verbOne" type="text" class="form number-input" placeholder="Enter verb with 'ing'...">
+                </div>
+                <div class="row pb-2 form-number-input">
+                    <input id="verbTwo" type="text" class="form number-input" placeholder="Enter verb with 'ing'...">
+                </div>
+                <div class="row pb-2 form-number-input">
+                    <input id="verbThree" type="text" class="form number-input" placeholder="Enter past tense verb...">
+                </div>
+                <div class="row pb-2 form-number-input">
+                    <input id="verbFour" type="text" class="form number-input" placeholder="Enter verb with 'ing'...">
+                </div>
+                <input id="adverb" type="text" class="form number-input" placeholder="Enter adverb with 'ly'...">
+                <button id="submitBtn" type="button" class="btn submitBtn">Submit</button>
+            </div>
+            <div class="row text-center mt-4">
+                <div class="phrase-container d-flex justify-content-center">
+                    <p id="showOutput" class="text-start" style="width: 27rem;">Once upon a time there was a {adj1} {noun1} who liked {verb1} trees. After a long day from {verb2}, it sat down and took off it's {noun2}. It {adverb} {verb3} over to the kitchen to grab a {noun3} from the fridge, tripped over a {noun4} and hit its head on the corner of the {noun5}. It never went back to {verb4} ever again because it was {adj2}. THE END.</p>
+                </div>
+                
+            </div>
+            <div class="container text-center madlib-back-link-container">
+                <a class="back-link" href="../index.html">BACK</a>
+            </div>
+        </div>
+    </div>
+    <script src="../scripts/madlib.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
