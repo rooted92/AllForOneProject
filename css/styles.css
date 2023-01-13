@@ -116,7 +116,7 @@ input::placeholder {
 }
 
 .directory-back-link-container {
-  margin-top: 3.25rem;
+  margin-top: 2.25rem;
 }
 
 .restaurant-back-link-container {
@@ -218,18 +218,6 @@ h1 {
   margin-left: 9.8rem;
 }
 
-.student-btn-dropdown {
-  border: solid 2px #C0008A;
-  min-width: 16rem;
-  max-height: 2rem;
-  padding: 0rem;
-  color: white;
-  background-color: rgba(255, 255, 255, 0.247);
-  border-radius: 5px;
-  text-align: start;
-  padding-left: .8rem;
-}
-
 .data-input {
   gap: 1rem;
 }
@@ -258,6 +246,10 @@ h1 {
 .student-data-text {
   margin-right: 3rem;
 }
+/* 
+.contain-text {
+  
+} */
 
 .restaurant-submitBtn {
   border: solid 2px #C0008A;
@@ -292,4 +284,9 @@ h1 {
   max-width: 16rem;
   height: 2rem;
   padding: 0rem 0rem 0rem .5rem;
+}
+
+.dropdown-select-menu:focus {
+  border: solid 2px #C0008A;
+  background-color: #020722ea;
 }

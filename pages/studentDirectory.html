@@ -24,51 +24,16 @@
                 <h1 class="d-flex justify-content-center pt-3">Search Directory</h1>
             </div>
             <div class="row mt-4 d-flex justify-content-center">
-                <!-- <select class="form-select dropdown-select-menu" aria-label="Default select example">
-                    <option selected>Student List</option>
-                    <option value="Busby">Harrison Busby</option>
+                <select id="students" type="text" class="form-select dropdown-select-menu mb-2"
+                    aria-label="Default select example">
+                    <div class="select-menu-bg">
+                        <option class="dropdown-item" selected>Student List</option>
+                    </div>
+                    
+                    <!-- <option value="Harrison Busby">Harrison Busby</option>
                     <option value="Le">Brandon Le</option>
-                    <option value="3">Three</option>
-                  </select> -->
-                <div class="dropdown d-flex justify-content-center">
-                    <button class="student-btn-dropdown dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        Student List
-                    </button>
-                    <ul class="dropdown-menu dropdown-menu-scroll">
-                        <li><button id="busbyBtn" class="dropdown-item" type="button">Harrison Busby</button></li>
-                        <li><button id="leBtn" class="dropdown-item" type="button">Brandon Le</button></li>
-                        <li><button id="lamzonBtn" class="dropdown-item" type="button">Jessie Lamzon</button></li>
-                        <li><button id="burrBtn" class="dropdown-item" type="button">Andrea Burr</button></li>
-                        <li><button id="decoitoBtn" class="dropdown-item" type="button">Daniel Decoito</button></li>
-                        <li><button id="castanedaBtn" class="dropdown-item" type="button">Pedro Castaneda</button></li>
-                        <li><button id="laphamBtn" class="dropdown-item" type="button">Jeremy Lapham</button></li>
-                        <li><button id="dekokBtn" class="dropdown-item" type="button">Jacob Dekok</button></li>
-                        <li><button id="fujimuraBtn" class="dropdown-item" type="button">Kenneth Fujimura</button></li>
-                        <li><button id="aguilarBtn" class="dropdown-item" type="button">Fernando Aguilar</button></li>
-                        <li><button id="contrerasBtn" class="dropdown-item" type="button">Jovann Contreras</button></li>
-                        <li><button id="nilssonBtn" class="dropdown-item" type="button">Andrew Nilsson</button></li>
-                        <li><button id="lazarBtn" class="dropdown-item" type="button">Lerissa Lazar</button></li>
-                        <li><button id="wilkinsBtn" class="dropdown-item" type="button">N. Harrison Wilkins</button></li>
-                        <li><button id="gowanBtn" class="dropdown-item" type="button">Madeline Gowan</button></li>
-                        <li><button id="leyvaBtn" class="dropdown-item" type="button">Manuel Leyva</button></li>
-                        <li><button id="garciaBtn" class="dropdown-item" type="button">Elizar Garcia</button></li>
-                        <li><button id="ramirezBtn" class="dropdown-item" type="button">Mark Ramirez</button></li>
-                        <li><button id="martinezBtn" class="dropdown-item" type="button">Chris Martinez</button></li>
-                        <li><button id="lagunaBtn" class="dropdown-item" type="button">Samuel Laguna</button></li>
-                        <li><button id="fergusonBtn" class="dropdown-item" type="button">Isaiah Ferguson</button></li>
-                        <li><button id="magpantayBtn" class="dropdown-item" type="button">John Magpantay</button></li>
-                        <li><button id="goodwinBtn" class="dropdown-item" type="button">Reed Goodwin</button></li>
-                        <li><button id="mannBtn" class="dropdown-item" type="button">Amar Mann</button></li>
-                        <li><button id="rodriguezBtn" class="dropdown-item" type="button">Marcel Rodriguez</button></li>
-                        <li><button id="johnsonBtn" class="dropdown-item" type="button">Richard Johnson</button></li>
-                        <li><button id="ortegaBtn" class="dropdown-item" type="button">Ulises Ortega</button></li>
-                        <li><button id="hanaBtn" class="dropdown-item" type="button">Caroline Hana</button></li>
-                        <li><button id="mashrahBtn" class="dropdown-item" type="button">Aisha Mashrah</button></li>
-                        <li><button id="aguirre-reyesBtn" class="dropdown-item" type="button">Shaun
-                                Aguirre-reyes</button></li>
-                    </ul>
-                </div>
+                    <option value="Lamzon">Jessie Lamzon</option> -->
+                </select>
             </div>
             <hr class="student-directory-hr">
             <div class="row">
@@ -98,7 +63,7 @@
                     <p class="p-0 m-0">Email:</p>
                     <p class="p-0 m-0">Hobbies:</p>
                 </div>
-                <div class="col-6">
+                <div class="col-6 contain-text">
                     <p id="showFirstName" class="p-0 m-0">Pedro</p>
                     <p id="showLastName" class="p-0 m-0">Castaneda</p>
                     <p id="showSlackName" class="p-0 m-0">Pedro Castaneda</p>
